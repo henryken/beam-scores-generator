@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: generator
+---
+testFramework: spek
+sourceLanguage: kotlin

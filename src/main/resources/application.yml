@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: beam-scores-generator
+
+  io:
+    watch:
+      paths: src/main
+      restart: true
+
+app:
+  gcp-project-id: your-gcp-project
+  pubsub-topic: topic-name
